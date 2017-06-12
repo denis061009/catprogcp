@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Play | OldCP</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="author" content="oldcp"/>
+<meta name="description" content="OldCP Old Club Penguin, rocketschat.com ClubPenguin.pro - the old club penguin from 2005-2007. Revisit the old days!"/>
+<meta name="keywords" content="play,oldcp,oldcp.biz,clubpenguin.pro,clubpenguin,club,penguin,club penguin,old club penguin,original club penguin,2005,2007,cp,rocketsnail,rsnail,screenhog,medieval,empire,rchq,rocketschat,dsghq,damenspike,damenspike games hq"/>
+<link rel="stylesheet" type="text/css" href="http://oldcp.biz/assets/css/main.css?8">
+<link rel="stylesheet" type="text/css" href="http://oldcp.biz/assets/css/forms-min.css">
+<link href="http://oldcp.biz/assets/images/favicon.png" rel="SHORTCUT ICON" type="image/png">
+</head>
+<body>
+<center>
+<div id="container">
+<div style="padding: 20px;padding-bottom:0px;">
+<img src="http://oldcp.biz/assets/images/logo.png" width="180"/>
+</div>
+<div class="navigation">
+<ul>
+</ul>
+</div> <div style="">
+<h2>Name penguin: catmeow</h2>
+<h2>Password: catprog</h2> 
+<p> WARNING: this penguin sometimes can be busy with other people. If you have a problem, wait for the penguin to break free. As soon as he's free, you will be able to play this CPPS.</p>
+<div id='ad1'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0475385033641670" data-ad-slot="8157270555" data-ad-format="auto"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div>
+<div id='ad'>
+</div>
+<div id="gameWrapper"><div id="game"> <embed src="http://play.oldcp.biz/load.swf?cacheVersion=1497272376&loadId=903" width="980" height="620" frameborder=0 allowScriptAccess="true"></div></div>
+<div id='ad2'>
+</div>
+<p></p>
+<div id="modList">
+<a href='#modList'><span style='color:#ff0000'>Rocket</span></a> &#8226; <a href='#modList'><span style='color:#FF0000'>TerryDJ</span></a> &#8226; <a href='#modList'><span style='color:#ff0000'>Damen</span></a> &#8226; <a href='#modList'><span style='color:#FF0000'>Tennis</span></a> &#8226; <a href='#modList'><span style='color:#FF0000'>PenguinDSC</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Luke</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Gamer</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Swirlie</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Orbay</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>perla</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Poolpie</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Cristal</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Pablo</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Sugar</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Sadie</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Alex</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Night</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>xcandy</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>P3ncil</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Lush</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Ivory</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Mithrandir</span></a> &#8226; <a href='#modList'><span style='color:#0099FF'>Jackie</span></a> </div>
+<p></p>
+<button class="btn btn-primary" onclick="doRelogin()">Relogin</button>
+<div id="userPresent" style="display:none;">
+</div>
+<div id="youtube" style="height: 100px;"></div>
+<center><div style="width: 400px;margin-bottom:20px;">
+<b>Content is owned by Disney. Club Penguin <br>
+Disclaimer<br>
+OldCP.biz, previously Clubpenguin.pro, is Not in any way, shape, or form affiliated with Walt Disney.</b>
+</div></center>
+</div>
+</div>
+</center>
+<script type="text/javascript" src="http://oldcp.biz/assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="http://oldcp.biz/assets/js/swfobject.js"></script>
+<script type="text/javascript">
+		var flashvars = {};
+		var params = {allowScriptAccess : "always", wmode: "opaque"};
+		var attributes = {name : "oldcpGame", id : "oldcpGame"};
+		function doRelogin() {
+			swfobject.removeSWF("oldcpGame");
+			var contents = $('#gameWrapper').html();
+			$('#gameWrapper').prepend("<div id='game'></div>");
+			//swfobject.embedSWF("http://play.oldcp.biz/load.swf?cacheVersion=1497272376", "game", "980", "620", "9.0.0", false, flashvars, params, attributes);
+			$('#gameWrapper').html("");
+			$('#gameWrapper').html(contents);
+			clearVideo();
+		}
+		function userPresent() {
+			$("#userPresent").show();
+			var ad = "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"><\/script> <!-- DSGHQ Test --> <ins class=\"adsbygoogle\" style=\"display:block\" data-ad-client=\"ca-pub-0475385033641670\" data-ad-slot=\"8157270555\" data-ad-format=\"auto\"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); <\/script>";
+			$("#ad").html(ad);
+			$("#ad2").html(ad);
+		}
+		function embedVideo(videoId, scrub) {
+			var url = "https://www.youtube.com/embed/" + videoId + "?start=" + Number(scrub) + "&autoplay=1";
+			$("#youtube").html("<iframe width='1' height='1' src='" + url + "' frameborder='0'></iframe>");
+		}
+		function clearVideo() {
+			$("#youtube").html(" ");
+		}
+		
+		//swfobject.embedSWF("http://play.oldcp.biz/load.swf?cacheVersion=1497272376", "game", "980", "620", "9.0.0", false, flashvars, params, attributes);
+	</script>
+</body>
+</html>
